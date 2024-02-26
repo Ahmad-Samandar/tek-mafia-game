@@ -1,0 +1,25 @@
+// @import 'bootstrap/dist/css/bootstrap.min.css';
+@import './assets/css/style.css';
+@import './assets/scss/variables';
+@import './assets/switcher/css/switcher.css';
+@import './assets/switcher/demo.css';
+@import './assets/css/animated.css';
+
+@import './assets/css/icons.css';
+@import 'react-perfect-scrollbar/dist/css/styles.css';
+
+
+//Header 
+.no-caret:after{
+display: none;
+}
+.header .nav-link .badge, .header .nav-item .badge{
+   inset-inline-end: 27px !important;
+}
+.toast-header .btn-close {
+   margin-inline-end: -65px;
+}
+//DASHBOARD
+.card-body {
+    padding: 1rem 1rem;
+}
