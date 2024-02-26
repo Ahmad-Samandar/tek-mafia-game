@@ -23,7 +23,7 @@ root.render(
           {/* Authentication  */}
           <Route path={`${import.meta.env.BASE_URL}/`} element={<Firebaselayout />}>
           <Route index element={<Login />} />
-            <Route path=" https://tek-mafia-game.web.app/login" element={<Login />} />
+            <Route  path={`${import.meta.env.BASE_URL}Firebase/Firebaseauthentication/login`} element={<Login />} />
             <Route path={`${import.meta.env.BASE_URL}Firebase/Firebaseauthentication/signup`} element={<Signup />} />
           </Route>
 
